@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReadMate 技术支持</title>
+<style>
+  :root {
+    --primary: #667eea;
+    --primary-dark: #5b6ef5;
+    --text: #1f2430;
+    --muted: #6b7280;
+    --bg: #f5f6fa;
+    --card: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 56px 20px 48px;
+    text-align: center;
+  }
+  header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  header p { font-size: 15px; opacity: 0.9; }
+  main {
+    max-width: 720px;
+    margin: -24px auto 40px;
+    padding: 0 16px;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(31, 36, 48, 0.06);
+  }
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: var(--primary-dark);
+  }
+  .card p, .card li { font-size: 15px; color: var(--text); }
+  .card ul { padding-left: 20px; }
+  .card li { margin-bottom: 6px; }
+  a { color: var(--primary-dark); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .email {
+    display: inline-block;
+    background: rgba(102, 126, 234, 0.1);
+    color: var(--primary-dark);
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 8px;
+  }
+  .divider { border: none; border-top: 1px solid #e5e7eb; margin: 16px 0; }
+  .en { color: var(--muted); font-size: 13px; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 20px 16px 40px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>ReadMate 技术支持</h1>
+    <p>文字识别与朗读助手 · Technical Support</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>联系我们 / Contact Us</h2>
+      <p>如您在使用 ReadMate 时遇到任何问题，或有建议与反馈，欢迎通过以下邮箱联系我们：</p>
+      <p style="margin-top:10px;"><a class="email" href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></p>
+      <p class="en" style="margin-top:10px;">For any questions, feedback or issues with ReadMate, please email us. We usually reply within 1-2 business days.</p>
+    </section>
+
+    <section class="card">
+      <h2>常见问题 / FAQ</h2>
+      <ul>
+        <li><strong>如何识别图片中的文字？</strong>在「经典」或「AI 增强」页面选择/拍摄图片，应用会自动识别并显示文字。</li>
+        <li><strong>如何朗读识别出的文字？</strong>识别完成后点击朗读按钮即可语音播放，可在设置中调整语速与声音。</li>
+        <li><strong>实时识别如何使用？</strong>进入「实时识别」页面，对准文字即可实时识别，也可连接智能眼镜设备使用。</li>
+        <li><strong>免费使用次数是多少？</strong>AI 增强与智能眼镜功能每天提供 3 次免费使用，订阅 Pro 可享受更多次数。</li>
+        <li><strong>订阅后如何恢复购买？</strong>在「账户」页面点击会员卡片中的「管理」，选择恢复购买即可。</li>
+      </ul>
+      <hr class="divider">
+      <p class="en"><strong>How to recognize text?</strong> Pick or take a photo in the "Classic" or "AI Enhanced" tab, and the app will recognize the text automatically.</p>
+      <p class="en"><strong>How to read text aloud?</strong> Tap the speak button after recognition. You can adjust speed and voice in settings.</p>
+      <p class="en"><strong>Free usage?</strong> AI Enhanced and Smart Glasses features offer 3 free uses per day. Subscribe to Pro for more.</p>
+      <p class="en"><strong>Restore purchases?</strong> Go to the "Account" tab, tap "Manage" on the membership card, then choose Restore Purchases.</p>
+    </section>
+
+    <section class="card">
+      <h2>隐私政策 / Privacy Policy</h2>
+      <p>ReadMate 重视您的隐私。识别过程使用的图片仅用于本次识别，应用不会上传您的个人数据。</p>
+      <p class="en" style="margin-top:8px;">ReadMate respects your privacy. Images are used only for on-device recognition, and no personal data is uploaded.</p>
+    </section>
+  </main>
+  <footer>
+    ReadMate · 技术支持页面 · © 2026
+  </footer>
+</body>
+</html>
